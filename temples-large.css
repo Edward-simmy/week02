@@ -1,0 +1,132 @@
+
+*{
+    margin: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; padding: 0;
+    text-decoration: overline , underline;
+    text-transform:capitalize;
+
+}
+
+.nav{
+    background-color:cadetblue ;
+    padding-top: 5;
+    justify-content: space-between;
+    padding-left: 10;
+    padding-right: 10;
+}
+.nav ul{
+    display: flex;
+    justify-content:right ;
+
+}
+.nav ul li{
+    list-style-type:circle;
+    padding: 10px 50px;
+    float: left;
+
+}
+
+.nav:nth-of-type(1){
+    flex: 0 250px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: overline underline;
+    font-weight: bold;
+
+}
+
+.nav ul li a:hover{
+    color: hsl(13, 82%, 51%);
+    transition: 3sec;
+    border: 1px solid whitesmoke;
+    gap: 15px;
+
+}
+.logo .nav{
+    font-size: small;
+    color:(13, 82%, 51%) ;
+    float:inline-start;
+}
+.card:nth-of-type(1){
+    flex: 1 250px
+}
+
+.card:nth-of-type(2){
+    flex:0 250px
+}
+
+.card:nth-of-type(3){
+    flex:0 250px
+}
+.container{
+    background:linear-gradient(45deg,blueviolet,lightgreen);
+    padding: 15px 1;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 8px;
+    object-fit:fill
+}
+
+.box{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.2) , 0 10px 10px rgba(0,0,0.22);
+    border-radius: 20px;
+    background: linear-gradient(45deg,rgb(94, 57, 91),rgb(55, 75, 55));
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.box {
+    text-align:center;
+    max-width: 1500px 250px;
+    margin: 2px;
+    border-color: gray;
+    }
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    padding: 15px 1;
+    color:white;
+    text-shadow: 0 5px 10px;
+}
+.img{
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+div img:hover{
+    background-color:grey;
+    transform:scale(1.2);
+    cursor: pointer;
+    transition:all 0.2s all;
+}
+   
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#FFFFFF;
+    background-color:cadetblue;
+    text-align:center;
+}
+    
